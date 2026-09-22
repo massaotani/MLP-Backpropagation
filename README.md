@@ -1,10 +1,15 @@
 ﻿# MLP Backpropagation (Java)
 
+[![Live Visualizer](https://img.shields.io/badge/🌐_Interactive_Demo-Visit_Web_App-007ACC?style=for-the-badge&logo=vercel&logoColor=white)](https://java-mlp-backpropagation-neural-net.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
 A from-scratch implementation of a single-hidden-layer Multilayer Perceptron (MLP), trained
 with online (per-sample) backpropagation and sigmoid activations. No external ML libraries —
 every matrix operation, activation function, and gradient update is implemented by hand in
 plain Java, which makes this a good reference for understanding how backpropagation actually
 works under the hood.
+
+🚀 **Try the interactive web visualization:** [https://java-mlp-backpropagation-neural-net.vercel.app/](https://java-mlp-backpropagation-neural-net.vercel.app/)
 
 Originally written in 2019 as a coursework project (for University of São Paulo - USP - Academics' purposes); hardened and verified in 2026 (see
 [Project History](#project-history) for what changed).
