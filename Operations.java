@@ -58,8 +58,6 @@ public class Operations {
         Double[][] ocultaTransposta = Matrix.transposta(oculta); //Transposta da oculta para fazer a multiplicacao
         Double[][] pesosOcultaAntigos = rede.getPesosOculta(); //pesos ANTES da atualizacao, precisamos deles (nao os novos) para propagar o erro para a camada de entrada
         Double[][] w = Matrix.Multiply(infoErroSaida, ocultaTransposta, null); //null: multiplicacao comum entre matrizes
-        //isto é, nao esta sendo usado para o calculo do bias
-        //como fazemos no comeco do feedfoward
 
         //Novos pesos da camada oculta para saida = pesos antigos + deltas ja calculados (w)     
         rede.setPesosOculta(Matrix.Add(w, rede.getPesosOculta()));
@@ -98,7 +96,7 @@ public class Operations {
         Double[][] j = Matrix.Multiply(infoErroOculta, entradaTransposta, null);
         
         //Novo peso da Camada de Entrada = peso antigo + delta do erro
-        rede.setPesosEntrada(Matrix.Add(j, rede.getPesosEntrada())); //N TEM QUE SER SUBTRAÃ‡ÃƒO????
+        rede.setPesosEntrada(Matrix.Add(j, rede.getPesosEntrada()));
 
         return somaErros;
     }
