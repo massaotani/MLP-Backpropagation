@@ -44,28 +44,7 @@ All five files belong to the `mlp_backpropagation` package.
 
 ## Getting Started
 
-### 1. Folder layout
-
-Every file declares `package mlp_backpropagation;`, so they must live inside a folder
-**named exactly `mlp_backpropagation`**:
-
-```
-your-project/
-└── mlp_backpropagation/
-    ├── Main.java
-    ├── RedeNeural.java
-    ├── Operations.java
-    ├── Matrix.java
-    └── LeitorCSV.java
-```
-
-> **"Incorrect Package" error?** This means the folder name doesn't match the package
-> declaration — usually because the files were dropped directly into a folder instead of
-> a subfolder called `mlp_backpropagation`. Fix the folder structure above, or strip the
-> `package mlp_backpropagation;` line from all five files if you'd rather not deal with the
-> folder requirement at all.
-
-### 2. Compile
+### 1. Compile
 
 From the parent directory (one level above `mlp_backpropagation/`):
 
@@ -73,7 +52,7 @@ From the parent directory (one level above `mlp_backpropagation/`):
 javac mlp_backpropagation/*.java
 ```
 
-### 3. Run
+### 2. Run
 
 ```bash
 java -cp . mlp_backpropagation.Main
