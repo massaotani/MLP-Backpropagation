@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 A from-scratch implementation of a single-hidden-layer Multilayer Perceptron (MLP), trained
-with online (per-sample) backpropagation and sigmoid activations. No external ML libraries —
+with Backpropagation learning and sigmoid activations. No external ML libraries —
 every matrix operation, activation function, and gradient update is implemented by hand in
 plain Java, which makes this a good reference for understanding how backpropagation actually
 works under the hood.
