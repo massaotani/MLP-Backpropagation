@@ -10,10 +10,10 @@ every matrix operation, activation function, and gradient update is implemented 
 plain Java, which makes this a good reference for understanding how backpropagation actually
 works under the hood.
 
-🚀 **Try the interactive web visualization by** [clicking here](https://java-mlp-backpropagation-neural-net.vercel.app/)**.**
-
 Originally written in 2019 as a coursework project (for University of São Paulo - USP - Academics' purposes); hardened and verified in 2026 (see
 [Project History](#project-history) for what changed).
+
+🚀 **Try the interactive web visualization by** [clicking here](https://java-mlp-backpropagation-neural-net.vercel.app/)**.**
 
 ## Features
 
