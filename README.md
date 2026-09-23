@@ -1,6 +1,7 @@
 ﻿# MLP Backpropagation (Java)
 
 [![Live Visualizer](https://img.shields.io/badge/🌐_Interactive_Demo-Visit_Web_App-007ACC?style=for-the-badge&logo=vercel&logoColor=white)](https://java-mlp-backpropagation-neural-net.vercel.app/)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 A from-scratch implementation of a single-hidden-layer Multilayer Perceptron (MLP), trained
